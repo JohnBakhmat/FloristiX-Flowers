@@ -1,13 +1,13 @@
 <template>
   <section class="p-20">
     <p class="text-xl text-gray-300 font-montseratt uppercase">Flowers</p>
-    <h1 class="font-oswald text-6xl my-10">{{ lang.top_sales }}</h1>
+    <h1 class="font-oswald text-6xl my-10">{{ lang.catalog }}</h1>
     <div class="flex flex-row justify-center">
       <div class="w-1/12 h-1 bg-blue-300 rounded-full" />
     </div>
-    <p class="font-opensans text-3xl text-gray-400 my-10">
+    <!-- <p class="font-opensans text-3xl text-gray-400 my-10">
       {{ lang.last_five_flowers }}
-    </p>
+    </p> -->
     <div
       class="grid col-span-1 gap-4 m-3"
       v-for="(flower, index) in flowers"
@@ -25,64 +25,32 @@
         "
       />
     </div>
-    <div class="flex flex-row justify-center">
-      <div
-        @click="
-          () => {
-            catalog();
-            $emit('scrollToTopEvent');
-          }
-        "
-        class="
-          m-16
-          transform
-          cursor-pointer
-          border
-          bg-blue-400
-          hover:shadow-xl hover:scale-105
-          duration-500
-          uppercase
-          p-5
-          rounded-xl
-          text-white
-          font-opensans-semi
-          text-xl
-          tracking-wider
-          px-11
-        "
-      >
-        {{ lang.browse_all_flowers }}
-      </div>
-    </div>
   </section>
 </template>
 
 <script>
-// import Navigation from "../components/Navigation.vue";
 import FlowerListItem from "@/components/FlowerListItem.vue";
 import router from "@/router/index.js";
-import { inject } from "vue";
+
+import { inject } from "@vue/runtime-core";
 export default {
   name: "Home",
   components: { FlowerListItem },
   emits: ["scrollToTopEvent"],
   setup() {
-    const catalog = () => {
-      router.push("/catalog");
-    };
+    const flowers = inject("flowers");
+    const lang = inject("lang");
+
     const inspect = (id) => {
       router.push("/inspect/" + id);
     };
-
-    const flowers = inject("flowers").slice(0, 5);
-    const lang = inject("lang");
     return {
       flowers,
-      inspect,
       lang,
-      catalog,
+      inspect,
     };
   },
 };
 </script>
+
 <style></style>

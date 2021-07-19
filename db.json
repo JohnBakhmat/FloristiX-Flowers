@@ -1,0 +1,74 @@
+{
+	"flowers": [
+		{
+			"name": "With Love",
+			"description": "Love adorns a person, opens a second wind and elevates feelings. Present this stunning bouquet of 11 imported roses with love and show your loved one the breadth of your feelings. Let this be the first step in a relationship, an anniversary gift or just a sign of attention, in any case this act will be remembered and rewarded!",
+			"composition": "11 red imported Freedom roses",
+			"image": "https://sunrose.com.ua/productsImgs/img922_main_l.jpg?v=bf890fd53b0093a3",
+			"price":1800
+		},
+		{
+			"name": "Warm welcome",
+			"description": "",
+			"composition": "29 pink tulips",
+			"image": "https://i.imgur.com/hOLYC1X.jpeg",
+			"price": 0
+		},
+		{
+			"name": "Rhodes",
+			"description": "",
+			"composition": "6 cream roses of Taleya variety, 2 branches of pink and 1 branch of white eustoma",
+			"image": "https://i.imgur.com/AA0DStC.jpeg",
+			"price": 0
+		},
+		{
+			"name": "Rhodes",
+			"description": "",
+			"composition": "6 cream roses of Taleya variety, 2 branches of pink and 1 branch of white eustoma",
+			"image": "https://i.imgur.com/AA0DStC.jpeg",
+			"price": 0
+		},
+		{
+			"name": "Rhodes",
+			"description": "",
+			"composition": "6 cream roses of Taleya variety, 2 branches of pink and 1 branch of white eustoma",
+			"image": "https://i.imgur.com/AA0DStC.jpeg",
+			"price": 0
+		},
+		{
+			"name": "Rhodes",
+			"description": "",
+			"composition": "6 cream roses of Taleya variety, 2 branches of pink and 1 branch of white eustoma",
+			"image": "https://i.imgur.com/AA0DStC.jpeg",
+			"price": 0
+		},
+		{
+			"name": "Rhodes",
+			"description": "",
+			"composition": "6 cream roses of Taleya variety, 2 branches of pink and 1 branch of white eustoma",
+			"image": "https://i.imgur.com/AA0DStC.jpeg",
+			"price": 0
+		}
+	],
+	"team":[
+		{
+			"name": "Alisa Velichko",
+			"job": "General Manager",
+			"avatar":"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-team-img-2.png",
+			"quote": "If we could see the miracle of a single flower clearly our whole life would change"
+		},
+
+		{
+			"name": "Mary Amiri",
+			"job": "Chief Florist",
+			"avatar":"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h3-team-img-3.png",
+			"quote": "Minds are like flowers; they open only when the time is right."
+		},
+		{
+			"name": "John Doe",
+			"job": "Florist assistant and mastermind",
+			"avatar":"https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/h3-team-img-1.png",
+			"quote": "Flowers don’t worry about how they’re going to bloom. They just open up and turn toward the light and that makes them beautiful."
+		}
+	]
+}
