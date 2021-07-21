@@ -74,6 +74,7 @@
               px-3
               bg-yellow-500
             "
+            @click="pay(flower.price)"
           >
             <p class="self-center">Buy with card</p>
             <i class="fas fa-credit-card self-center text-3xl"></i>
@@ -87,9 +88,34 @@
 <script>
 import { useRoute } from "vue-router";
 import { inject } from "@vue/runtime-core";
+import LiqPay from "@/services/liqpay";
+import generator from "generate-password";
 // import { ref } from "vue";s
 export default {
   setup() {
+    //LiqPay
+    const public_key = "sandbox_i78702606286";
+    const private_key = "sandbox_s4FSNyEIpXb2eOU076bas7t2q29Z4EWJRJtpor9b";
+    var liqpay = new LiqPay(public_key, private_key);
+
+    const pay = (amount) => {
+      const pass = generator.generate({ length: 10, numbers: true });
+      let html = liqpay.cnb_form({
+        action: "pay",
+        amount: `${amount}`,
+        currency: "UAH",
+        description: "description text",
+        order_id: `${pass}`,
+        version: "3",
+      });
+      let dom = document.createElement("div");
+      dom.innerHTML = html;
+      let form = dom.getElementsByTagName("form")[0];
+      document.body.appendChild(form);
+      form.submit();
+    };
+
+    //
     const id = useRoute().params.id;
     const flowers = inject("flowers");
     const lang = inject("lang");
@@ -99,6 +125,7 @@ export default {
     return {
       flower,
       lang,
+      pay,
     };
   },
 };

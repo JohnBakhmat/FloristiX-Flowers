@@ -104,7 +104,7 @@
     >
       <h1>
         Copyrights © 2020 All Rights Reserved by
-        <a class="underline cursor-pointer">Pipiska 22</a>.
+        <a class="underline cursor-pointer">saBroV</a>.
       </h1>
       <div class="flex gap-3 self-center">
         <h1 class="self-center">For support</h1>
