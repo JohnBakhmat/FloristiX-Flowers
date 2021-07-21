@@ -14,7 +14,7 @@ import Navigation from "@/components/Navigation.vue";
 import Footer from "@/components/Footer.vue";
 import BackToTopButton from "@/components/BackToTopButton.vue";
 import { ref, onMounted, computed, provide } from "vue";
-import db from "../db.json";
+import db from "../public/db.json";
 import ru from "@/assets/lang/ru.json";
 import en from "@/assets/lang/en.json";
 export default {
