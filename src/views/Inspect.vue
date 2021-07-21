@@ -10,7 +10,8 @@
         flex flex-col
         bg-white
         shadow-2xl
-        -translate-y-44
+        -translate-y-24
+        lg:-translate-y-44
         transform
         rounded-3xl
       "
