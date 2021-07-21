@@ -14,7 +14,7 @@
         transform
       "
     >
-      <img :src="image" class="mx-2 lg:mx-11" />
+      <img :src="image" class="h-full mx-2 lg:mx-11" />
       <div class="self-center">
         <h1
           class="
