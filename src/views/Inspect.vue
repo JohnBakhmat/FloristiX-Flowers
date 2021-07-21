@@ -4,8 +4,10 @@
       class="
         w-10/12
         border
-        p-12
-        flex flex-row
+        py-2
+        px-2
+        lg:p-12 lg:flex-row
+        flex flex-col
         bg-white
         shadow-2xl
         -translate-y-44
@@ -14,7 +16,7 @@
       "
     >
       <img :src="flower.image" alt="" class="mx-10 w-1/8 self-center" />
-      <div class="ml-10 text-left flex flex-col gap-6 w-3/4 self-center">
+      <div class="lg:ml-10 text-left flex flex-col gap-6 w-3/4 self-center">
         <h1 class="font-oswald text-5xl">{{ flower.name }}</h1>
         <h1 class="font-opensans text-3xl">
           {{ lang.price }}:
@@ -24,49 +26,55 @@
         </h1>
         <h1 class="font-opensans text-3xl">{{ lang.bouqite }}</h1>
         <hr class="w-full" />
-        <p class="font-opensans text-2xl">{{ flower.description }}</p>
-        <h2 class="font-opensans text-2xl">
-          {{ lang.composition }}: {{ flower.composition }}
+        <p class="font-opensans text-xl lg:text-2xl text-justify">
+          {{ flower.description }}
+        </p>
+        <h2 class="font-opensans text-xl lg:text-2xl">
+          {{ lang.composition }}: <br />{{ flower.composition }}
         </h2>
-        <div class="flex flex-row gap-20">
+        <div class="flex lg:flex-row flex-col lg:gap-20 w-full">
           <a
             href="https://wa.me/+380953622829"
             class="
+              text-center
               uppercase
               border
-              py-5
-              px-10
+              lg:py-5 lg:px-10 lg:gap-3
+              py-1
+              px-3
               rounded-xl
-              bg-green-500
               text-white
               hover:scale-105
               transform
               duration-200
+              justify-between
               flex flex-row
-              gap-3
+              bg-green-500
             "
           >
-            <span class="self-center">buy with whatsapp</span>
+            <p class="self-center">buy with whatsapp</p>
 
             <i class="fab fa-whatsapp self-center text-3xl"></i>
           </a>
           <a
             class="
+              text-center
               uppercase
               border
-              py-5
-              px-10
+              lg:py-5 lg:px-10 lg:gap-3
+              py-1
               rounded-xl
-              bg-yellow-500
               text-white
               hover:scale-105
               transform
               duration-200
               flex flex-row
-              gap-3
+              justify-between
+              px-3
+              bg-yellow-500
             "
           >
-            <span class="self-center">Buy with card</span>
+            <p class="self-center">Buy with card</p>
             <i class="fas fa-credit-card self-center text-3xl"></i>
           </a>
         </div>

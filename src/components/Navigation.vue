@@ -4,8 +4,10 @@
       font-opensans-semi
       flex flex-row
       justify-center
-      gap-9
-      text-xl text-white text-opacity-50
+      gap-3
+      text-md
+      lg:gap-9 lg:text-xl
+      text-white text-opacity-50
       tracking-wider
       pt-10
     "
@@ -15,11 +17,18 @@
     <router-link to="/catalog">{{ lang.catalog }}</router-link>
     <button @click="$emit('changeLangEvent')">RU/ENG</button>
   </div>
-  <div class="text-center flex-row py-64 h-5/6 z-10">
-    <h1 class="text-white text-5xl font-oswald font-bold tracking-wider">
+  <div class="text-center flex-row py-24 lg:py-64 h-5/6 z-10">
+    <h1
+      class="
+        text-white text-4xl
+        lg:text-5xl
+        font-oswald font-bold
+        tracking-wider
+      "
+    >
       Your <span class="text-blue-400">beloved</span> will be delighted
     </h1>
-    <p class="font-opensans text-3xl m-3 text-white tracking-widest">
+    <p class="font-opensans text-xl lg:text-3xl m-3 text-white tracking-widest">
       Find a bouquet in a second
     </p>
   </div>

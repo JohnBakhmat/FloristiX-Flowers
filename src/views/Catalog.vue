@@ -1,15 +1,15 @@
 <template>
-  <section class="p-20">
+  <section class="lg:p-20 p-5">
     <p class="text-xl text-gray-300 font-montseratt uppercase">Flowers</p>
     <h1 class="font-oswald text-6xl my-10">{{ lang.catalog }}</h1>
-    <div class="flex flex-row justify-center">
+    <div class="flex flex-row justify-center mb-10">
       <div class="w-1/12 h-1 bg-blue-300 rounded-full" />
     </div>
     <!-- <p class="font-opensans text-3xl text-gray-400 my-10">
       {{ lang.last_five_flowers }}
     </p> -->
     <div
-      class="grid col-span-1 gap-4 m-3"
+      class="grid col-span-1 m-0"
       v-for="(flower, index) in flowers"
       :key="index"
     >
