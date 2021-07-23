@@ -12,42 +12,147 @@
 			"description": "",
 			"composition": "29 pink tulips",
 			"image": "https://i.imgur.com/hOLYC1X.jpeg",
-			"price": 0
+			"price": 2100
 		},
 		{
 			"name": "Rhodes",
 			"description": "",
 			"composition": "6 cream roses of Taleya variety, 2 branches of pink and 1 branch of white eustoma",
 			"image": "https://i.imgur.com/AA0DStC.jpeg",
-			"price": 0
+			"price": 1500
 		},
 		{
-			"name": "Rhodes",
-			"description": "",
-			"composition": "6 cream roses of Taleya variety, 2 branches of pink and 1 branch of white eustoma",
-			"image": "https://i.imgur.com/AA0DStC.jpeg",
-			"price": 0
+			"name":"Splendor",
+			"description" : "",
+			"composition" : "1 pink hydrangea, 2 white Cymbidium orchids, 4 white spray roses.",
+			"image": "https://sunrose.com.ua/productsImgs/img1080_main_l.jpg?v=a8dd63662f219681",
+			"price":1730
 		},
 		{
-			"name": "Rhodes",
-			"description": "",
-			"composition": "6 cream roses of Taleya variety, 2 branches of pink and 1 branch of white eustoma",
-			"image": "https://i.imgur.com/AA0DStC.jpeg",
-			"price": 0
+			"name":"Summer dreams",
+			"description" : "",
+			"composition" : "25 pale pink and 26 white tulips",
+			"image": "https://sunrose.com.ua/productsImgs/img485_main_l.jpg?v=a0c174c6925c14a6",
+			"price":3400
 		},
 		{
-			"name": "Rhodes",
-			"description": "",
-			"composition": "6 cream roses of Taleya variety, 2 branches of pink and 1 branch of white eustoma",
-			"image": "https://i.imgur.com/AA0DStC.jpeg",
-			"price": 0
+			"name":"45 multicolored roses",
+			"description" : "",
+			"composition" : "15 white roses of the Avalanche variety, 15 pink roses of the Aqua variety, 15 red roses of the Grand Prix or Prestige varieties.",
+			"image": "https://sunrose.com.ua/productsImgs/img951_main_l.jpg?v=6f29f6ad2c9e386c",
+			"price":4085
 		},
 		{
-			"name": "Rhodes",
-			"description": "",
-			"composition": "6 cream roses of Taleya variety, 2 branches of pink and 1 branch of white eustoma",
-			"image": "https://i.imgur.com/AA0DStC.jpeg",
-			"price": 0
+			"name":"Favorite girls",
+			"description" : "",
+			"composition" : "15 white Avalanche roses.",
+			"image": "https://sunrose.com.ua/productsImgs/img1461_main_l.jpg?v=4b9a2b034f98a93b",
+			"price":2530
+		},
+		{
+			"name":"From the heart",
+			"description" : "",
+			"composition" : "21 red roses, Grand Prix or Prestige variety, Milk chocolate with raisins and crushed hazelnuts, Ferrero Roche, Asti Mondoro semisweet white champagne (0.75 l.)",
+			"image": "https://sunrose.com.ua/productsImgs/img891_main_l.jpg?v=e41c7d443ec0299d",
+			"price":5500
+		},
+		{
+			"name":"Intuition",
+			"description" : "",
+			"composition" : "51 red roses of the Grand Prix or Prestige varieties.",
+			"image": "https://sunrose.com.ua/productsImgs/img115_main_l.jpg?v=def46ba3c82ef971",
+			"price":4400
+		},
+		{
+			"name":"Air kiss",
+			"description" : "",
+			"composition" : "9 red roses, 8 branches of a white spray rose.",
+			"image": "https://sunrose.com.ua/productsImgs/img316_main_l.jpg?v=2f9b977c245e0f6a",
+			"price":2800
+		},
+		{
+			"name":"Attention",
+			"description" : "",
+			"composition" : "4 pink Aqua roses, 4 white Avalanche roses, 6 pink tulips, 2 cream carnations, 2 cream spray roses, 5 white cymbidium orchids.",
+			"image": "https://sunrose.com.ua/productsImgs/img384_main_l.jpg?v=d6abbdd75e56d2d4",
+			"price":3300
+		},
+		{
+			"name":"My beloved",
+			"description" : "",
+			"composition" : "13 white roses of the Avalanche variety, 12 red roses of the Grand Prix or Prestige varieties.",
+			"image": "https://sunrose.com.ua/productsImgs/img1216_main_l.jpg?v=db073833f797ac9d",
+			"price":2500
+		},
+		{
+			"name":"101 rose Symbol of love",
+			"description" : "",
+			"composition" : "81 pink Aqua roses, 20 white Avalanche roses.",
+			"image": "https://sunrose.com.ua/productsImgs/img991_main_l.jpg?v=351f850691b6fe9f",
+			"price":8500
+		},
+		{
+			"name":"Air cloud",
+			"description" : "",
+			"composition" : "101 white chamomile chrysanthemum, Bacardi variety.",
+			"image": "https://sunrose.com.ua/productsImgs/img1189_main_l.jpg?v=c5dc794a2f5b591b",
+			"price":8450
+		},
+		{
+			"name":"Love you",
+			"description" : "",
+			"composition" : "22 red Grand Prix or Prestige roses, 22 white Avalanche roses and 21 yellow Penny Lane roses.",
+			"image": "https://sunrose.com.ua/productsImgs/img1193_main_l.jpg?v=b92e79cb295e3e9e",
+			"price":6150
+		},
+		{
+			"name":"Tender words",
+			"description" : "",
+			"composition" : "3 blue hydrangeas, 3 pink hydrangeas, 1 white hydrangea.",
+			"image": "https://sunrose.com.ua/productsImgs/img825_main_l.jpg?v=203cc37fa61909d3",
+			"price":3800
+		},
+		{
+			"name":"101 rose Cupid",
+			"description" : "",
+			"composition" : "50 white roses of the Avalanche variety and 51 red roses of the Grand Prix or Prestige varieties.",
+			"image": "https://sunrose.com.ua/productsImgs/img1185_main_l.jpg?v=9698d8d9254943fc",
+			"price":8320
+		},
+		{
+			"name":"65 red-pink roses",
+			"description" : "",
+			"composition" : "32 red Grand Prix or Prestige roses, 33 pink Aqua roses.",
+			"image": "https://sunrose.com.ua/productsImgs/img953_main_l.jpg?v=a35b2524ce866146",
+			"price":3800
+		},
+		{
+			"name":"Enjoyment",
+			"description" : "",
+			"composition" : "15 red roses of the Grand Prix or Prestige varieties, 7 cream roses of the Talea or Pinch Avalanche varieties, 9 branches of white eustoma.",
+			"image": "https://sunrose.com.ua/productsImgs/img1110_main_l.jpg?v=5db89f79d509cfb1",
+			"price":4320
+		},
+		{
+			"name":"Snow White",
+			"description" : "",
+			"composition" : "21 imported white roses.",
+			"image": "https://sunrose.com.ua/productsImgs/img561_main_l.jpg?v=a958756d95b65498",
+			"price":3800
+		},
+		{
+			"name":"101 rose Cupid",
+			"description" : "",
+			"composition" : "50 white roses of the Avalanche variety and 51 red roses of the Grand Prix or Prestige varieties.",
+			"image": "https://sunrose.com.ua/productsImgs/img1185_main_l.jpg?v=9698d8d9254943fc",
+			"price":8320
+		},
+		{
+			"name":"Snow White",
+			"description" : "",
+			"composition" : "75 red (Grand Prix or Prestige varieties) and yellow Ilios roses.",
+			"image": "https://sunrose.com.ua/productsImgs/img498_main_l.jpg?v=f7c2b97d5ff0e096",
+			"price":6100
 		}
 	],
 	"team":[
