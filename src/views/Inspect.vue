@@ -73,6 +73,7 @@
               justify-between
               px-3
               bg-yellow-500
+              hidden
             "
             @click="pay(flower.price)"
           >
