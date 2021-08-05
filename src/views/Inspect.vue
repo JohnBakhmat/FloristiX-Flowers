@@ -27,7 +27,10 @@
         </h1>
         <h1 class="font-opensans text-3xl">{{ lang.bouqite }}</h1>
         <hr class="w-full" />
-        <p class="font-opensans text-xl lg:text-2xl text-justify">
+        <p
+          class="font-opensans text-xl lg:text-2xl text-justify"
+          v-show="flower.description.length"
+        >
           {{ flower.description }}
         </p>
         <h2 class="font-opensans text-xl lg:text-2xl">
