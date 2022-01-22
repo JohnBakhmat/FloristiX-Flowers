@@ -26,6 +26,12 @@ const routes = [
     name: "Inspect",
     component: () => import("@/views/Inspect.vue"),
   },
+  {
+    path: "/whatsup",
+    beforeEnter: () => {
+      location.href = "https://wa.me/+380953622829";
+    },
+  },
 ];
 
 const router = createRouter({

@@ -9,6 +9,10 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
+    "@logdna/logger": "^2.6.1",
+    "@logtail/browser": "latest",
+    "@logtail/js": "^0.1.10",
+    "@logtail/node": "latest",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "generate-password": "^1.6.0",

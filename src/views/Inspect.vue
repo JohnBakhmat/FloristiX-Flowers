@@ -38,7 +38,6 @@
         </h2>
         <div class="flex lg:flex-row flex-col lg:gap-20 w-full">
           <a
-            href="https://wa.me/+380953622829"
             class="
               text-center
               uppercase
@@ -55,6 +54,7 @@
               flex flex-row
               bg-green-500
             "
+            @click="onWhatsupClick()"
           >
             <p class="self-center">buy with whatsapp</p>
 
@@ -93,6 +93,8 @@
 import { useRoute } from "vue-router";
 import { inject } from "@vue/runtime-core";
 import { proceed_payment as pay } from "@/services/payment.js";
+// import router from "../router";
+import { logtailLog } from "../utils/logger.js";
 // import { ref } from "vue";s
 export default {
   setup() {
@@ -104,7 +106,19 @@ export default {
     const flower = flowers[id];
 
     console.log(flower);
+    const onWhatsupClick = () => {
+      // logdnaLog(`${new Date()}Trying to buy ${flower}`);
+      const date = new Date();
+      logtailLog(
+        `${date.toLocaleDateString("ru-RU")} Trying to buy ${JSON.stringify({
+          flower: flower.name,
+          price: flower.price,
+        })}`
+      );
+      // router.push("/whatsup");
+    };
     return {
+      onWhatsupClick,
       flower,
       lang,
       pay,
