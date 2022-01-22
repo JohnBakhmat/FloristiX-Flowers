@@ -93,7 +93,7 @@
 import { useRoute } from "vue-router";
 import { inject } from "@vue/runtime-core";
 import { proceed_payment as pay } from "@/services/payment.js";
-// import router from "../router";
+import router from "../router";
 import { logtailLog } from "../utils/logger.js";
 // import { ref } from "vue";s
 export default {
@@ -115,7 +115,7 @@ export default {
           price: flower.price,
         })}`
       );
-      // router.push("/whatsup");
+      router.push("/whatsup");
     };
     return {
       onWhatsupClick,
