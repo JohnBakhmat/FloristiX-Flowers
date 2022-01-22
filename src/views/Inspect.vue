@@ -108,13 +108,7 @@ export default {
     console.log(flower);
     const onWhatsupClick = () => {
       // logdnaLog(`${new Date()}Trying to buy ${flower}`);
-      const date = new Date();
-      logtailLog(
-        `${date.toLocaleDateString("ru-RU")} Trying to buy ${JSON.stringify({
-          flower: flower.name,
-          price: flower.price,
-        })}`
-      );
+      logtailLog(`Trying to buy ${flowers.name}`);
       router.push("/whatsup");
     };
     return {
