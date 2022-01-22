@@ -108,7 +108,7 @@ export default {
     console.log(flower);
     const onWhatsupClick = () => {
       // logdnaLog(`${new Date()}Trying to buy ${flower}`);
-      logtailLog(`Trying to buy ${flowers.name || "error"};`);
+      logtailLog(`Trying to buy ${flower.name || "error"};`);
       setTimeout(() => router.push("/whatsup"), 100);
     };
     return {
