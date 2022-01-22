@@ -108,8 +108,8 @@ export default {
     console.log(flower);
     const onWhatsupClick = () => {
       // logdnaLog(`${new Date()}Trying to buy ${flower}`);
-      logtailLog(`Trying to buy ${flowers.name}`);
-      router.push("/whatsup");
+      logtailLog(`Trying to buy ${flowers.name || "error"};`);
+      setTimeout(() => router.push("/whatsup"), 100);
     };
     return {
       onWhatsupClick,
