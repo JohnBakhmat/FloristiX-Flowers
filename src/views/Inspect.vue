@@ -94,7 +94,7 @@ import { useRoute } from "vue-router";
 import { inject } from "@vue/runtime-core";
 import { proceed_payment as pay } from "@/services/payment.js";
 import router from "../router";
-import { logtailLog } from "../utils/logger.js";
+// import { logtailLog } from "../utils/logger.js";
 // import { ref } from "vue";s
 export default {
   setup() {
@@ -106,10 +106,17 @@ export default {
     const flower = flowers[id];
 
     console.log(flower);
-    const onWhatsupClick = () => {
-      // logdnaLog(`${new Date()}Trying to buy ${flower}`);
-      logtailLog(`Trying to buy ${flower.name || "error"};`);
-      setTimeout(() => router.push("/whatsup"), 100);
+    const onWhatsupClick = async () => {
+      const options = {
+        method: "POST",
+        body: JSON.stringify(flower),
+        headers: {
+          "Content-Type": "application/json",
+          // 'Content-Type': 'application/x-www-form-urlencoded',
+        },
+      };
+      await fetch("https://floristixapi.azurewebsites.net/log", options);
+      router.push("/whatsup");
     };
     return {
       onWhatsupClick,
